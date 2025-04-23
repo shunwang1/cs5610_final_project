@@ -7,9 +7,11 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: process.env.PORT || 3000,
+    allowedHosts: ['cs5610-final-project-1.onrender.com', 'localhost']
   },
   preview: {
     host: '0.0.0.0',
     port: process.env.PORT || 3000,
+    allowedHosts: ['cs5610-final-project-1.onrender.com', 'localhost']
   }
 })
